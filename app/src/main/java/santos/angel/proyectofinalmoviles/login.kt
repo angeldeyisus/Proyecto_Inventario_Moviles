@@ -15,5 +15,11 @@ class login : AppCompatActivity() {
         setContentView(R.layout.activity_login)
         val textViewNoAccount: TextView = findViewById(R.id.textViewNoAccount)
 
+        textViewNoAccount.setOnClickListener {
+            val intent = Intent(this, RegisterActivity::class.java)
+            startActivity(intent)
+        }
+
+
     }
 }

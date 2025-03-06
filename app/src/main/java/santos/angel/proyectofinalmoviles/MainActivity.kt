@@ -1,5 +1,6 @@
 package santos.angel.proyectofinalmoviles
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.activity.enableEdgeToEdge
@@ -15,7 +16,8 @@ class MainActivity : AppCompatActivity() {
         val buttonStart: Button = findViewById(R.id.button_start)
 
         buttonStart.setOnClickListener {
-
+            val intent = Intent(this, login::class.java)
+            startActivity(intent)
         }
     }
 }
