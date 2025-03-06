@@ -49,8 +49,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="@string/no_account_text"
-        android:movementMethod="android.text.method.LinkMovementMethod"
-        android:textSize="16sp"/>
+        android:textSize="16sp"
+        tools:ignore="ExtraText" />
 
 
 
